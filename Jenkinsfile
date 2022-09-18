@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('error') {
+    stage('second') {
       steps {
         sh 'echo Stage 2'
       }
